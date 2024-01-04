@@ -10,10 +10,10 @@ Create .env.local from .env, add aquired keys
 
 Deploy project
 
-Create Clerk a webhook endpoint using deloyed URL + project route.ts directory - {URL}/api/webhook/clerk
+Create a new Clerk webhook endpoint using deloyed URL + project route.ts directory - {URL}/api/webhook/clerk
 
 Update .env.local and deployed site with the new webhook signing secret key
 
-Redeploy is nessasary
+Redeploy if nessasary
 
 Create a user
