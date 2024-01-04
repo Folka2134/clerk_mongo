@@ -2,6 +2,7 @@ This is a backend template for Clerk authentication and Mongodb connection. Incl
 
 Steps:
 Setup a clerk and mongodb project
+
 Visit- lib/database/index.ts and update the "dbName" to the name of the mongodb db
 Create .env.local from .env, add aquired keys
 Deploy project
