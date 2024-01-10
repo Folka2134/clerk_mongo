@@ -14,6 +14,8 @@ Create a new Clerk webhook endpoint using deloyed URL + project route.ts directo
 
 Update .env.local and deployed site with the new webhook signing secret key
 
+Edit Clerk custom session token: { "userId": "{{user.public_metadata.userId}}" }
+
 Redeploy if nessasary
 
 Create a user
